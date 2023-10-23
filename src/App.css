@@ -1,0 +1,99 @@
+
+p{
+  font-size: 24px;
+}
+
+.cardPull{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  flex-grow: 12;
+  justify-content: space-around;
+  align-items: center;
+ 
+
+}
+.cardPull.dragged {
+  cursor: grabbing;
+}
+
+.pullup{
+  background-color: gray;
+}
+.pulluplist{
+  width: 100svw; 
+  height: 100svh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.screen{
+  width: 100svw; 
+  height: 100svh;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skillscreen{
+  width: 100vw; 
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+}
+.musicBtn{
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+.musicBtn:hover {
+  background-color: #bbb8b8; 
+  color: white;
+}
+
+.pages {
+  height: 256px;
+  width: 256px;
+}
+
+.page {
+  height: 200px;
+  width: 200px;
+  user-select: none;
+  touch-action: none;
+}
+
+.page1 {
+  background-color: pink;
+}
+
+.page2 {
+  background-color: yellow;
+}
+
+.page3 {
+  background-color: aqua;
+}
+
+
+.email  {
+  color: #FFFF;
+  transition: color 0.3s; 
+}
+
+.email.hovered:hover  {
+  color: pink; 
+}
