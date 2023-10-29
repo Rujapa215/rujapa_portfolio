@@ -92,8 +92,13 @@ p{
 .email  {
   color: #FFFF;
   transition: color 0.3s; 
+
+  
 }
 
 .email.hovered:hover  {
   color: pink; 
+}
+a:link{
+  text-decoration: none;
 }

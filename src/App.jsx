@@ -140,7 +140,7 @@ function App() {
       <p> scan to view my contact</p>
       <button onClick={handleToggleFlashlight} /*style={{background: textColor}}*/ >grab 🔦 to scan my email</button>
       <br /><br /><br /><br /><br /><br /><br/><br /><br />
-      <p className={`email ${textColor ? 'hovered' : ''}`} >👉 ✨rujpa.dh@gmail.com ✨👈</p>
+      <a href="mailto:rujapa.dh@gmail.com"> <p className={`email ${textColor ? 'hovered' : ''}`} >👉 ✨rujpa.dh@gmail.com ✨👈</p></a> 
     </div>
     </>
   )
