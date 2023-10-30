@@ -1,6 +1,6 @@
 
 p{
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .cardPull{
@@ -22,22 +22,23 @@ p{
   background-color: gray;
 }
 .pulluplist{
-  width: 100svw; 
-  height: 100svh;
+  /* width: 100svw; 
+  height: 50svh; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
 }
 .screen{
-  width: 100svw; 
-  height: 100svh;
-  margin-bottom: 2rem;
+ width: 100svw; 
+  height: 100svh; 
+  margin-bottom: 5rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-color: blueviolet; */
 }
 .skillscreen{
   width: 100vw; 
@@ -92,13 +93,26 @@ p{
 .email  {
   color: #FFFF;
   transition: color 0.3s; 
-
-  
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .email.hovered:hover  {
-  color: pink; 
+  color: gray; 
+  
 }
 a:link{
   text-decoration: none;
+}
+
+.pic1{
+  width: auto;
+  height: 250px;
+}
+.btn{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #FFFF;
 }

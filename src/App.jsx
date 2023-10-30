@@ -10,7 +10,7 @@ import {
   disable,
   isEnabled,
 } from 'cursor-flashlight';
-// import { FlippingPagesWithPointerControls } from 'flipping-pages/dist-types/components/pointer-controls';
+import project_screenshort from './assets/Screenshot 2023-10-30 002134.png'
 
 
 function App() {
@@ -80,9 +80,11 @@ function App() {
         />
        <button className='musicBtn' onClick={togglePlay}>{isPlaying ? '🔊': '🔇' }</button>
       </div>
+
+
       <div >
       <div className= {`cardPull ${isDragged ? 'dragged' : ''}` }>
-      <Draggable  axis="y" positionOffset={{x: '-10%', y: '700px'}} onDrag={handleDrag}>
+      <Draggable  axis="y" positionOffset={{x: '-10%', y: '600px'}} onDrag={handleDrag}>
        <div >
       <h2 > 🔼Drag me up to see skills</h2>
        <p>React</p>
@@ -92,6 +94,7 @@ function App() {
        <p>Tailwind</p>
        <p>Bootstrap</p>
        <p>Node.js</p>
+       <p>Express</p>
        <p>MongoBD</p>
        <p>Canva</p>
        <p>Figma</p>
@@ -111,27 +114,49 @@ function App() {
        
       <div className='screen'>
         <div>
-        <h2>Project</h2>
-        <p>showcase coming soon...</p>
+        
+          <h2>Group Project</h2>
+          <a href="https://project-mlb.vercel.app/">
+          <img className='pic1'
+        src= {project_screenshort} alt="project svreensort" />
+          </a>
+          <br />
+
+          <a href="https://project-mlb.vercel.app/">
+            <button className='btn'>Visit</button>
+          </a>
+
+          <a href="https://github.com/Grop-project-8">
+          <button className='btn'> Github</button>
+          </a>
+          
+       
         <h2>Exprience</h2>
         <p>I'm seeking a new exiteing one</p>
         <h2>Education</h2>
         <p>Generation Thailnad | Junior Software Developer 5</p>
+        <h2>Resume</h2>
+        <a href="https://docs.google.com/document/d/1Nb1alZFF-3pvhboFyq7XX6Vq8be1uUeLoTpVz5KetHQ/edit?usp=sharing">
+          <p>Click to view my resume</p>
+        </a>
         </div>
       </div> 
 
+
       <div className='screen'>
-       
-      <h2>What I'm interest and learning right now</h2>
-      <p>Android deveoping using Compose and Kotin (just geting started on developer.android.com)</p>
-      <p>🗻 Japanese language 🗼and cooking Japanese food 🍱</p>
-      <p>Python</p>
-      <p>User Exprirence</p>
-      <p style={{color: ''}} >Data modeling cureently on linkedin learning</p>
-      <p>Geography 🌏, Green tech 🌳(i really mean it)</p>
-      <p>stock investing</p>
-      <p>Improving myself</p>
-      <p>and more...</p>
+      
+        <h2>What I'm interest and learning right now</h2>
+        <p>Android deveoping using Compose and Kotin (just geting started on developer.android.com)</p>
+        <p>🗻 Japanese language 🗼and cooking Japanese food 🍱</p>
+        <p>Python</p>
+        <p>User Exprirence</p>
+        <p style={{color: ''}} >Data modeling cureently on linkedin learning</p>
+        <p>Geography 🌏, Green tech 🌳(i really mean it)</p>
+        <p>stock investing</p>
+        <p>Improving myself</p>
+        <p>and more...</p>
+          
+        
     </div>
     
   
